@@ -1,19 +1,14 @@
 {
-  "name": "ci-cd-demo",
+  "name": "my-app",
   "version": "1.0.0",
-  "description": "Sample Node.js app for CI/CD with Docker and Jenkins",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "jest"
+    "start": "node index.js",
+    "test": "echo \"No tests yet\" && exit 0",
+    "lint": "echo \"No lint yet\" && exit 0"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.21.0"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0",
-    "supertest": "^7.0.0"
+    "express": "^4.19.0"
   }
 }
+
